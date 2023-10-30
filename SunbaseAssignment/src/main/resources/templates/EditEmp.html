@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.com">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	crossorigin="anonymous">
+
+<title>Home page</title>
+</head>
+<body>
+	<!-- Navbar -->
+
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+		<a class="navbar-brand" href="#">Customer Management System</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul style="margin-left: 20cm;" class="navbar-nav mr-auto">
+				<li class="nav-item active"><a class="nav-link" href="index.html">Home
+						
+				</a></li>
+				<li class="nav-item active"><a class="nav-link" href="add_customer.html">Add Customer</a></li>
+
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Navbar -->
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-md-6 offset-md-3">
+				<div class="card">
+					<div class="card-body">
+						<h4 class="text-center text-primary">Edit Customer Details</h4>	<br>	<br>
+
+						<form>
+							<div class="container-fluid">		
+							<div class="row">
+								<div class="col">
+									<input type="text" class="form-control" placeholder="First name">
+								</div>
+								<div class="col">
+									<input type="text" class="form-control" placeholder="Last name">
+								</div>
+							</div>
+							<br>
+							<div class="row">
+								<div class="col">
+									<input type="text" class="form-control" placeholder="Steet">
+								</div>
+								<div class="col">
+									<input type="text" class="form-control" placeholder="Address">
+								</div>
+							</div>	<br>
+							<div class="row">
+								<div class="col">
+									<input type="text" class="form-control" placeholder="City">
+								</div>
+								<div class="col">
+									<input type="text" class="form-control" placeholder="State">
+								</div>
+							</div>	<br>
+							<div class="row">
+								<div class="col">
+									<input type="text" class="form-control" placeholder="Email">
+								</div>
+								<div class="col">
+									<input type="text" class="form-control" placeholder="Phone">
+								</div>
+							</div>	<br>
+							<button type="submit" class="btn btn-primary ml-5">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
